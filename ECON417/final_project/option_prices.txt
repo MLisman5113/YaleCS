@@ -1,0 +1,90 @@
+Ticker: WMT
+ Day 0 Stock Price: 148.69
+ Strike Price: 146.00
+ Volatility: 0.10
+ Calculated Option Price: 3.68
+ Exercise before Expiration Date: No
+ Actual Option Price on Expiration Day: 4.45
+ Difference: 0.77
+
+Ticker: AMZN
+ Day 0 Stock Price: 102.41
+ Strike Price: 101.00
+ Volatility: 0.41
+ Calculated Option Price: 5.52
+ Exercise before Expiration Date: No
+ Actual Option Price on Expiration Day: 4.70
+ Difference: 0.82
+
+Ticker: AAPL
+ Day 0 Stock Price: 166.17
+ Strike Price: 165.00
+ Volatility: 0.21
+ Calculated Option Price: 4.73
+ Exercise before Expiration Date: No
+ Actual Option Price on Expiration Day: 4.62
+ Difference: 0.11
+
+Ticker: CVS
+ Day 0 Stock Price: 76.09
+ Strike Price: 68.00
+ Volatility: 0.20
+ Calculated Option Price: 8.35
+ Exercise before Expiration Date: No
+ Actual Option Price on Expiration Day: 9.70
+ Difference: 1.35
+
+Ticker: UNH
+ Day 0 Stock Price: 494.19
+ Strike Price: 475.00
+ Volatility: 0.26
+ Calculated Option Price: 26.88
+ Exercise before Expiration Date: No
+ Actual Option Price on Expiration Day: 18.70
+ Difference: 8.18
+
+Ticker: XOM
+ Day 0 Stock Price: 116.13
+ Strike Price: 103.00
+ Volatility: 0.18
+ Calculated Option Price: 13.50
+ Exercise before Expiration Date: No
+ Actual Option Price on Expiration Day: 15.78
+ Difference: 2.28
+
+Ticker: BRK.B
+ Day 0 Stock Price: 310.31
+ Strike Price: 310.00
+ Volatility: 0.11
+ Calculated Option Price: 4.35
+ Exercise before Expiration Date: No
+ Actual Option Price on Expiration Day: 18.75
+ Difference: 14.40
+
+Ticker: GOOGL
+ Day 0 Stock Price: 104.36
+ Strike Price: 101.00
+ Volatility: 0.30
+ Calculated Option Price: 5.53
+ Exercise before Expiration Date: No
+ Actual Option Price on Expiration Day: 6.19
+ Difference: 0.66
+
+Ticker: MCK
+ Day 0 Stock Price: 363.77
+ Strike Price: 347.50
+ Volatility: 0.17
+ Calculated Option Price: 18.77
+ Exercise before Expiration Date: No
+ Actual Option Price on Expiration Day: 16.43
+ Difference: 2.34
+
+Ticker: ABC
+ Day 0 Stock Price: 162.28
+ Strike Price: 160.00
+ Volatility: 0.17
+ Calculated Option Price: 4.56
+ Exercise before Expiration Date: No
+ Actual Option Price on Expiration Day: 8.06
+ Difference: 3.50
+
