@@ -1,5 +1,7 @@
 # CPSC 223 @ Yale University
 
+NOTE: All the following assignments are located in the Problem Sets folder
+
 1. PSET 1: Focus on user input, command line, basic C concepts
 2. PSET 2: Focus on conditionals, static arrays, basic implementation of Game of Life algorithm
 3. PSET 3: Focus on dynamic arrays, file I/O, structs, pointers
