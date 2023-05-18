@@ -5,11 +5,11 @@
 **PROJECT VIDEO URL:** https://youtu.be/b4ECEQ77kFY
 
 
-## PROJECT DESCRIPTION
+## Project Description
 Yalieats is a web application that allows its users to search for and review local restaurants in the New Haven, Connecticut area. When running the application, the user is prompted to either register or log in. They then have access to the different tools within Yalieats. Members have three options: Search by Restaurant Name, Search by Filters, or Review a Restaurant. Each of these features will be explained in more detail further down in the file. Users can access reviews, get recommendations based on filters they choose, and see the different ratings that Yalies leave to find out the perfect place to eat. Essentially, finding the right restaurant to eat at becomes a much easier task with Yalieats.
 
 
-## HOW TO RUN THE APPLICATION:
+## How to run the application
 Yalieats is a Flask application that was built, tested, and run entirely in the CS50 VSCode IDE (the browser version, not the desktop version) that has been utilized during the semester as the key virtual codespace for Yale's CS50 course. All the accompanying files are included in the finalproject folder, which includes a flask_session folder, a static folder that contains images, favicons, fonts, and styles.css found in the application, a templates folder that contains all of the html files, the app.py file, the DESIGN.md and README.md files, a helpers.py file, a requirements.txt file, and the yalieats.db database (SQLite3), which includes a table for the members, a table for the restaurants, and a table for the reviews.
 
 In order to run the application, first you should download the finalproject folder (unzip the file beforehand, if necessary) and drag it into the VSCode IDE file explorer so you can import the project.
@@ -23,7 +23,7 @@ That command will open a new port to the application and reveal a link that you 
 
 What to do from here will be detailed in the next section of the file, which will describe the different pages, functionalities, and features of the Yalieats web application
 
-## PAGES, FUNCTIONALITIES, AND MAIN FEATURES OF YALIEATS
+## Pages, Functionalities, and Main Features of Yalieats
 
 1. Register and Login Initial Page (before_main.html)
 
