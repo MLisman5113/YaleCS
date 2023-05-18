@@ -1,4 +1,5 @@
-# CPSC 223 @ Yale University
+# CPSC 223: Data Structures and Programming Techniques
+
 **Course Description:** Topics include programming in C and C++; object oriented programming; data structures (arrays, stacks, queues, lists, trees, heaps, graphs); sorting and searching; memory allocation and management; data abstraction; programming style; testing and debugging; asymptotic analysis of programs.
 
 ## Folder Breakdown
