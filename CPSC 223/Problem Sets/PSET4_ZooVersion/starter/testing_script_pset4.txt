@@ -1,0 +1,33 @@
+~~compiling train-conductor~~
+No errors or warnings!
+
+~~running difftest~~
+all_stations passed!
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+remove_some passed!
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+output passed!
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~running valgrind~~
+==1339780== Command: ./train-conductor
+==1339780== 
+I just read and inserted 26 stations
+Removed stations and printed to file
+Done!
+==1339780== 
+==1339780== HEAP SUMMARY:
+==1339780==     in use at exit: 0 bytes in 0 blocks
+==1339780==   total heap usage: 65 allocs, 65 frees, 108,822 bytes allocated
+==1339780== 
+==1339780== All heap blocks were freed -- no leaks are possible
+==1339780== 
+==1339780== For lists of detected and suppressed errors, rerun with: -s
+==1339780== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+
+~~running unittest~~
+
+~~cleaning up~~
+rm -f unittest train-conductor
+rm -f Station.o LinkedList.o
+rm -f core* *~
