@@ -1,0 +1,110 @@
+Ticker & WMT
+ Day 0 Stock Price & 148.69
+ Strike Price & 146.00
+ Volatility & 0.27
+ Calculated Option Price on 4/4/2023 & 5.93
+ Actual Option Price on 4/4/2023 & 3.72
+ Difference & 2.21
+ Exercise before Expiration Date & No
+ Actual Price on Expiration Date & 4.45
+ 4/4/23 vs. 4/28/23 Difference & 0.73
+
+Ticker & AMZN
+ Day 0 Stock Price & 102.41
+ Strike Price & 101.00
+ Volatility & 0.48
+ Calculated Option Price on 4/4/2023 & 6.19
+ Actual Option Price on 4/4/2023 & 6.70
+ Difference & 0.51
+ Exercise before Expiration Date & No
+ Actual Price on Expiration Date & 4.70
+ 4/4/23 vs. 4/28/23 Difference & -2.00
+
+Ticker & AAPL
+ Day 0 Stock Price & 166.17
+ Strike Price & 165.00
+ Volatility & 0.35
+ Calculated Option Price on 4/4/2023 & 7.07
+ Actual Option Price on 4/4/2023 & 4.72
+ Difference & 2.35
+ Exercise before Expiration Date & No
+ Actual Price on Expiration Date & 4.62
+ 4/4/23 vs. 4/28/23 Difference & -0.10
+
+Ticker & CVS
+ Day 0 Stock Price & 76.09
+ Strike Price & 68.00
+ Volatility & 0.26
+ Calculated Option Price on 4/4/2023 & 8.40
+ Actual Option Price on 4/4/2023 & 8.45
+ Difference & 0.05
+ Exercise before Expiration Date & No
+ Actual Price on Expiration Date & 9.70
+ 4/4/23 vs. 4/28/23 Difference & 1.25
+
+Ticker & UNH
+ Day 0 Stock Price & 494.19
+ Strike Price & 475.00
+ Volatility & 0.24
+ Calculated Option Price on 4/4/2023 & 25.51
+ Actual Option Price on 4/4/2023 & 25.88
+ Difference & 0.37
+ Exercise before Expiration Date & No
+ Actual Price on Expiration Date & 18.70
+ 4/4/23 vs. 4/28/23 Difference & -7.18
+
+Ticker & XOM
+ Day 0 Stock Price & 116.13
+ Strike Price & 103.00
+ Volatility & 0.34
+ Calculated Option Price on 4/4/2023 & 13.88
+ Actual Option Price on 4/4/2023 & 12.78
+ Difference & 1.10
+ Exercise before Expiration Date & No
+ Actual Price on Expiration Date & 15.78
+ 4/4/23 vs. 4/28/23 Difference & 3.00
+
+Ticker & BRK.B
+ Day 0 Stock Price & 310.31
+ Strike Price & 310.00
+ Volatility & 0.22
+ Calculated Option Price on 4/4/2023 & 8.08
+ Actual Option Price on 4/4/2023 & 6.20
+ Difference & 1.88
+ Exercise before Expiration Date & No
+ Actual Price on Expiration Date & 18.75
+ 4/4/23 vs. 4/28/23 Difference & 12.55
+
+Ticker & GOOGL
+ Day 0 Stock Price & 104.36
+ Strike Price & 101.00
+ Volatility & 0.40
+ Calculated Option Price on 4/4/2023 & 6.44
+ Actual Option Price on 4/4/2023 & 6.60
+ Difference & 0.16
+ Exercise before Expiration Date & No
+ Actual Price on Expiration Date & 6.19
+ 4/4/23 vs. 4/28/23 Difference & -0.41
+
+Ticker & MCK
+ Day 0 Stock Price & 363.77
+ Strike Price & 347.50
+ Volatility & 0.24
+ Calculated Option Price on 4/4/2023 & 20.20
+ Actual Option Price on 4/4/2023 & 16.45
+ Difference & 3.75
+ Exercise before Expiration Date & No
+ Actual Price on Expiration Date & 16.43
+ 4/4/23 vs. 4/28/23 Difference & -0.02
+
+Ticker & ABC
+ Day 0 Stock Price & 162.28
+ Strike Price & 160.00
+ Volatility & 0.24
+ Calculated Option Price on 4/4/2023 & 5.62
+ Actual Option Price on 4/4/2023 & 5.35
+ Difference & 0.27
+ Exercise before Expiration Date & No
+ Actual Price on Expiration Date & 8.06
+ 4/4/23 vs. 4/28/23 Difference & 2.71
+

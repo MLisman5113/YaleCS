@@ -1,0 +1,1 @@
+p is 1.3196411672093729 and the iteration number is 6
