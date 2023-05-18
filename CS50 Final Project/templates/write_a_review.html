@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta name="viewport" content="initial-scale=1, width=device-width">
+        <link href="/static/styles.css" rel="stylesheet">
+        <title>Yalieats</title>
+        <link rel="icon" type="image/x-icon" href="/static/favicon-32x32.png">
+    </head>
+    <body>
+        <div class="header">
+            <h1 class="title" style="font-size:100px"><a href="/main">Yalieats</a></h1>
+            <i><h1 class="title"></h1>A New Way to Eat</i>
+            <p></p>
+            <ul class="ul">
+                <li class="li"><a href="/about_us"><h3>About Us</h3></a></li>
+                <li class="li"><a href="/your_account"><h3>Your Account</h3></a></li>
+                <li class="li"><a href="/contact_us"><h3>Contact Us</h3></a></li>
+                <li class="li"><a href="/logout"><h3>Log Out</h3></a></li>
+            </ul>
+        </div>
+
+        <div class="write_a_review_main">
+            <div class="before_main_text">
+                <p>Please review your restaurant according to the following parameters.</p>
+                <form action="/write_a_review" method="post">
+                    <div class="form_format">
+                        <select id="restaurant_name" name="restaurant_name">
+                                <option value="" disabled selected hidden>Choose a Restaurant</option>
+                                <option value="116 Crown">116 Crown</option>
+                                <option value="168 York Street Cafe">168 York Street Cafe</option>
+                                <option value="Abate Restaurant">Abate Restaurant</option>
+                                <option value="Adriana's Restaurant and Wine Bar">Adriana's Restaurant and Wine Bar</option>
+                                <option value="Alpha Delta Pizza">Alpha Delta Pizza</option>
+                                <option value="Anchor Spa">Anchor Spa</option>
+                                <option value="Archie Moore's Bar and Restaurant">Archie Moore's Bar and Restaurant</option>
+                                <option value="Arethusa Farm Dairy">Arethusa Farm Dairy</option>
+                                <option value="Ashley's Ice Cream">Ashley's Ice Cream</option>
+                                <option value="Atelier Florian">Atelier Florian</option>
+                                <option value="Atticus Bookstore Cafe">Atticus Bookstore Cafe</option>
+                                <option value="B-Natural Kitchen">B-Natural Kitchen</option>
+                                <option value="BAR">BAR</option>
+                                <option value="Bar 19">Bar 19</option>
+                                <option value="Barcade">Barcade</option>
+                                <option value="Barcelona Restaurant and Wine Bar">Barcelona Restaurant and Wine Bar</option>
+                                <option value="Barracuda Bistro and Bar">Barracuda Bistro and Bar</option>
+                                <option value="Basil Restaurant">Basil Restaurant</option>
+                                <option value="Basta Trattoria">Basta Trattoria</option>
+                                <option value="Bear's Smokehouse BBQ">Bear's Smokehouse BBQ</option>
+                                <option value="Bella's Cafe">Bella's Cafe</option>
+                                <option value="Ben and Jerry's">Ben and Jerry's</option>
+                                <option value="Blue State Coffee">Blue State Coffee</option>
+                                <option value="Boiling SOHO">Boiling SOHO</option>
+                                <option value="Bonchon">Bonchon</option>
+                                <option value="Book Trader Cafe">Book Trader Cafe</option>
+                                <option value="Brazi's Italian Restaurant">Middle Eastern</option>
+                                <option value="Bruegger's Bagels">Bruegger's Bagels</option>
+                                <option value="Buen Gusto">Buen Gusto</option>
+                                <option value="Buns n Dumplings">Buns n Dumplings</option>
+                                <option value="Cafe George by Paula">Cafe George by Paula</option>
+                                <option value="Cafe Java">Cafe Java</option>
+                                <option value="Cafe Nine">Cafe Nine</option>
+                                <option value="Caffe Bravo">Caffe Bravo</option>
+                                <option value="Cajun Boiled Seafood">Cajun Boiled Seafood</option>
+                                <option value="Camacho Garage">Camacho Garage</option>
+                                <option value="Carmine's Di Vega Ristorante and Bar">Carmine's Di Vega Ristorante and Bar</option>
+                                <option value="Cast Iron Chef Chop House">Cast Iron Chef Chop House</option>
+                                <option value="Cave a Vin">Cave a Vin</option>
+                                <option value="Cedarhurst Cafe">Cedarhurst Cafe</option>
+                                <option value="Chap's Grille and Bagel Bakery">Chap's Grille and Bagel Bakery</option>
+                                <option value="Chestnut Fine Food and Confections">Chestnut Fine Food and Confections</option>
+                                <option value="Chipotle Mexican Grill">Chipotle Mexican Grill</option>
+                                <option value="Chopsticks Kitchen">Chopsticks Kitchen</option>
+                                <option value="Choupette Creperie">Choupette Creperie</option>
+                                <option value="Christopher Martin's Restaurant">Christopher Martin's Restaurant</option>
+                                <option value="Claire's Corner Copia">Claire's Corner Copia</option>
+                                <option value="Cody's Diner">Cody's Diner</option>
+                                <option value="Consiglio's Restaurant">Consiglio's Restaurant</option>
+                                <option value="Crafted By Hand Cafe">Crafted By Hand Cafe</option>
+                                <option value="D'Amato's Seafood II">D'Amato's Seafood II</option>
+                                <option value="Da Legna at Nolo">Da Legna at Nolo</option>
+                                <option value="Dayton Street Apizza">Dayton Street Apizza</option>
+                                <option value="Deja Brew">Deja Brew</option>
+                                <option value="Delaney's Restaurant and Tap Room">Delaney's Restaurant and Tap Room</option>
+                                <option value="Doc's Baja Surf Shack">Doc's Baja Surf Shack</option>
+                                <option value="Doner Cafe">Doner Cafe</option>
+                                <option value="Donut Crazy">Donut Crazy</option>
+                                <option value="Dozo Asian Bistro and Sushi">Dozo Asian Bistro and Sushi</option>
+                                <option value="Edge of the Woods Market">Edge of the Woods Market</option>
+                                <option value="Edible Couture">Edible Couture</option>
+                                <option value="El Amigo Felix">El Amigo Felix</option>
+                                <option value="El Coqui Restaurant">El Coqui Restaurant</option>
+                                <option value="El Segundo">El Segundo</option>
+                                <option value="Elm City Market">Elm City Market</option>
+                                <option value="Epik Diner">Epik Diner</option>
+                                <option value="Ernie's Pizzeria">Ernie's Pizzeria</option>
+                                <option value="Est Est Est Pizza and Restaurant">Est Est Est Pizza and Restaurant</option>
+                                <option value="Fin and Scale">Fin and Scale</option>
+                                <option value="Five Guys">Five Guys</option>
+                                <option value="Frank Pepe Pizzeria Napoletana">Frank Pepe Pizzeria Napoletana</option>
+                                <option value="Fussy Coffee">Fussy Coffee</option>
+                                <option value="G Cafe Bakery Ninth Square">G Cafe Bakery Ninth Square</option>
+                                <option value="Garden Catering">Garden Catering</option>
+                                <option value="Geronimo Bar and Grill">Thai</option>
+                                <option value="Good Nature Market">Good Nature Market</option>
+                                <option value="Goodfellas Restaurant">Goodfellas Restaurant</option>
+                                <option value="Grand Apizza">Grand Apizza</option>
+                                <option value="Hamilton Park">Hamilton Park</option>
+                                <option value="Harvest Wine Bar and Restaurant">Harvest Wine Bar and Restaurant</option>
+                                <option value="Haven Hot Chicken">Haven Hot Chicken</option>
+                                <option value="Havenly">Havenly</option>
+                                <option value="Heirloom">Heirloom</option>
+                                <option value="Hong Kong Grocery">Hong Kong Grocery</option>
+                                <option value="House of Chao">House of Chao</option>
+                                <option value="House of Naan Indian Kitchen and Bar">House of Naan Indian Kitchen and Bar</option>
+                                <option value="India Palace Restaurant (TANDOOR)">India Palace Restaurant (TANDOOR)</option>
+                                <option value="Insomnia Cookies">Insomnia Cookies</option>
+                                <option value="Ivy Wok">Ivy Wok</option>
+                                <option value="J&B Deli">J&B Deli</option>
+                                <option value="Jack's Bar and Steakhouse">Jack's Bar and Steakhouse</option>
+                                <option value="Jazzy's Cabaret Restaurant">Jazzy's Cabaret Restaurant</option>
+                                <option value="Jeera Thai">Jeera Thai</option>
+                                <option value="Johnny Salami's World Class">Johnny Salami's World Class</option>
+                                <option value="Junzi Kitchen">Junzi Kitchen</option>
+                                <option value="K & G Corner Deli">K & G Corner Deli</option>
+                                <option value="Kasbah Garden Cafe">Kasbah Garden Cafe</option>
+                                <option value="Katalina's">Katalina's</option>
+                                <option value="Koffee?">Koffee?</option>
+                                <option value="Kool Breeze Jamaican Restaurant">Kool Breeze Jamaican Restaurant</option>
+                                <option value="Kumo Sushi Hibachi">Kumo Sushi Hibachi</option>
+                                <option value="L'Orcio">L'Orcio</option>
+                                <option value="La Molienda Cafe">La Molienda Cafe</option>
+                                <option value="Ladle and Loaf">Ladle and Loaf</option>
+                                <option value="Lalibela Ethiopian Restaurant">Lalibela Ethiopian Restaurant</option>
+                                <option value="Lazeez Indian Cuisine">Lazeez Indian Cuisine</option>
+                                <option value="Lena's Cafe and Confections">Lena's Cafe and Confections</option>
+                                <option value="Libby's Italian Pastry Shop">Libby's Italian Pastry Shop</option>
+                                <option value="Loose Leaf Boba Company">Loose Leaf Boba Company</option>
+                                <option value="Louis' Lunch">Louis' Lunch</option>
+                                <option value="Lucibello's Italian Pastry Shop">Lucibello's Italian Pastry Shop</option>
+                                <option value="Lupi-Marchigiano Bakery">Lupi-Marchigiano Bakery</option>
+                                <option value="Main Garden">Main Garden</option>
+                                <option value="Maison Mathis">Maison Mathis</option>
+                                <option value="Mama Mary's Soul Food">Mama Mary's Soul Food</option>
+                                <option value="Mamoun's Falafel Restaurant">Mamoun's Falafel Restaurant</option>
+                                <option value="Manjares">Manjares</option>
+                                <option value="Marco Polo Pizzeria & Italian Restaurant">Marco Polo Pizzeria & Italian Restaurant</option>
+                                <option value="Marjolaine Pastry Shop">Marjolaine Pastry Shop</option>
+                                <option value="Meat & Co.">Meat & Co.</option>
+                                <option value="Mecha Noodle Bar">Mecha Noodle Bar</option>
+                                <option value="Mediterranea Cafe">Mediterranea Cafe</option>
+                                <option value="Menya Gumi">Menya Gumi</option>
+                                <option value="Mew Haven Cat Cafe">Mew Haven Cat Cafe</option>
+                                <option value="Mezcal">Mezcal</option>
+                                <option value="Midpoint Istanbul">Midpoint Istanbul</option>
+                                <option value="Milkcraft">Milkcraft</option>
+                                <option value="Miso Restaurant">Miso Restaurant</option>
+                                <option value="Modern Apizza">Modern Apizza</option>
+                                <option value="More Than Pizza">More Than Pizza</option>
+                                <option value="Munchies">Munchies</option>
+                                <option value="New Haven's Taste of China">New Haven's Taste of China</option>
+                                <option value="Nica's Market">Nica's Market</option>
+                                <option value="Ninth Square Market">Ninth Square Market</option>
+                                <option value="Oak Haven Table and Bar">Oak Haven Table and Bar</option>
+                                <option value="Olea">Olea</option>
+                                <option value="Olives and Oil">Olives and Oil</option>
+                                <option value="Olmo Bagelry">Olmo Bagelry</option>
+                                <option value="One 6 Three">One 6 Three</option>
+                                <option value="Ordinary">Ordinary</option>
+                                <option value="P&M Orange Street Market">P&M Orange Street Market</option>
+                                <option value="Pacifico">Pacifico</option>
+                                <option value="Pad Thai Restaurant">Pad Thai Restaurant</option>
+                                <option value="Pataka Vegetarian Indian Food">Pataka Vegetarian Indian Food</option>
+                                <option value="Patricia's Restaurant">Patricia's Restaurant</option>
+                                <option value="Pho Ketkeo">Pho Ketkeo</option>
+                                <option value="Pho Thai">Pho Thai</option>
+                                <option value="Pistachio Cafe">Pistachio Cafe</option>
+                                <option value="Pitaziki Mediterranean Cafe">Pitaziki Mediterranean Cafe</option>
+                                <option value="Portofino's Restaurant & Bar">Portofino's Restaurant & Bar</option>
+                                <option value="Prime 16">Prime 16</option>
+                                <option value="Provisions on State">Provisions on State</option>
+                                <option value="Rawa Mediterranean Fusion">Rawa Mediterranean Fusion</option>
+                                <option value="Rice Pot Thai Restaurant">Rice Pot Thai Restaurant</option>
+                                <option value="Ricky D's Rib Shack">Ricky D's Rib Shack</option>
+                                <option value="Rubamba Restaurant">Rubamba Restaurant</option>
+                                <option value="Rudy's Bar">Rudy's Bar</option>
+                                <option value="Saladcraft">Saladcraft</option>
+                                <option value="Sally's Apizza">Sally's Apizza</option>
+                                <option value="Salsa's Authentic Mexican Restaurant">Salsa's Authentic Mexican Restaurant</option>
+                                <option value="Sanctuary Kitchen by CitySeed">Sanctuary Kitchen by CitySeed</option>
+                                <option value="Vegetarian">Vegetarian</option>
+                                <option value="Sandra's Next Generation">Sandra's Next Generation</option>
+                                <option value="Seoul Restaurant">Seoul Restaurant</option>
+                                <option value="September in Bangkok">September in Bangkok</option>
+                                <option value="Shake Shack">Shake Shack</option>
+                                <option value="Shell & Bones Oyster Bar & Grill">Shell & Bones Oyster bar & Grill</option>
+                                <option value="Sherkaan Indian Street Food">Sherkaan Indian Street Food</option>
+                                <option value="Sitar Restaurant">Sitar Restaurant</option>
+                                <option value="Skappo Italian Wine Bar">Skappo Italian Wine Bar</option>
+                                <option value="SoBol">SoBol</option>
+                                <option value="Somos Handcrafted Arepas">Somos Handcrafted Arepas</option>
+                                <option value="Soul de Cuba Cafe">Soul de Cuba Cafe</option>
+                                <option value="South Bay Mediterranean Kitchen">South Bat Mediterranean Kitchen</option>
+                                <option value="Sushi On Chapel">Sushi On Chapel</option>
+                                <option value="Tandoor New Haven">Tandoor New Haven</option>
+                                <option value="Tavern On State">Tavern On State</option>
+                                <option value="Te Amo Tequila Bar & Tacos">Te Amo Tequila Bar & Tacos</option>
+                                <option value="Temple Grill">Temple Grill</option>
+                                <option value="Ten Seconds Yunnan Noodle">Ten Seconds Yunnan Noodle</option>
+                                <option value="The Juice Box">The Juice Box</option>
+                                <option value="The Little Salad Shop">The Little Salad Shop</option>
+                                <option value="The Marketa">The Marketa</option>
+                                <option value="The Neighborhood Cafe">The Neighborhood Cafe</option>
+                                <option value="The Owl Shop">The Owl Shop</option>
+                                <option value="The Pantry Restaurant">The Pantry Restaurant</option>
+                                <option value="The Spot">The Spot</option>
+                                <option value="The Trinity Bar and Restaurant">The Trinity Bar and Restaurant</option>
+                                <option value="Three Sheets">Three Sheets</option>
+                                <option value="Tikkaway Grill">Tikkaway Griil</option>
+                                <option value="Tomatillo">Tomatillo</option>
+                                <option value="Town Pizza">Town Pizza</option>
+                                <option value="Tre Scalini Restaurant">Tre Scalini Restaurant</option>
+                                <option value="Tropical Krust">Tropical Krust</option>
+                                <option value="Tropical Smoothie Cafe">Tropical Smoothie Cafe</option>
+                                <option value="Union League Cafe">Union League Cafe</option>
+                                <option value="Viva Nutrition">Viva Nutrition</option>
+                                <option value="Vivi Bubble Tea">Vivi Bubble Tea</option>
+                                <option value="Ward 9">Ward 9</option>
+                                <option value="Westville Pizza">Westville Pizza</option>
+                                <option value="Westville Seafood">Westville Seafood</option>
+                                <option value="Willoughby's Coffee and Tea">Willoughby's Coffee and Tea</option>
+                                <option value="Wing Madness">Wing Madness</option>
+                                <option value="Woody's Wings">Woody's Wings</option>
+                                <option value="York St. Noodle House">York St. Noodle House</option>
+                                <option value="Yorkside Pizza & Restaurant">Yorkside Pizza & Restaurant</option>
+                                <option value="Zaroka Bar & Grill">Zaroka Bar & Grill</option>
+                                <option value="Zeneli Pizzeria & Cucina Napoletana">Zeneli Pizzeria & Cucina Napoletana</option>
+                                <option value="Ziggy's Pizza Restaurant">Ziggy's Pizza Restaurant</option>
+                                <option value="ZINC New Haven">ZINC New Haven</option>
+                                <option value="Zoi's New Haven">Zoi's New Haven</option>
+                        </select>
+                    </div>
+                    <div class="form_format">
+                        <input autocomplete="off" autofocus class="form-control mx-auto w-auto" id="price_rating" name="price_rating" placeholder="Price (1-10)" type="number" min="1" max="10">
+                    </div>
+                    <div class="form_format">
+                        <input autocomplete="off" autofocus class="form-control mx-auto w-auto" id="portion_size_rating" name="portion_size_rating" placeholder="Portion Size (1-10)" type="number" min="1" max="10">
+                    </div>
+                    <div class="form_format">
+                         <select id="recommendation" name="recommendation">
+                            <option value="" disabled selected hidden>Reccomendation</option>
+                            <option value="Yes">Yes</option>
+                            <option value="No">No</option>
+                        </select>
+                    </div>
+                    <div class="form_format">
+                        <input autocomplete="off" autofocus class="form-control mx-auto w-auto" id="overall_restaurant_rating" name="overall_restaurant_rating" placeholder="Overall Experience (1-10)" type="number" min="1" max="10">
+                    </div>
+                    <div class="form_format">
+                        <input autocomplete="off" autofocus class="form-control mx-auto w-auto" id="deliciousness_rating" name="deliciousness_rating" placeholder="Overall Deliciousness (1-10)" type="number" min="1" max="10">
+                    </div>
+                    <div class="form_format">
+                        <input autocomplete="off" autofocus class="form-control mx-auto w-auto" id="review_text" name="review_text" placeholder="Any Comments?" type="text">
+                    </div>
+                    <button class="register_login_button" type="submit">Submit your Review</button>
+                </form>
+            </div>
+        </div>
+        <footer class="footer">
+            &nbsp
+            <p>
+                Brought to you by: Lisman Watch Company LLC
+            </p>
+            <p>
+                Copyright Marcus A. Lisman &copy; 2021
+            </p>
+            <p>
+                <a target="_blank" href="https://www.lismanwatchcompany.com">Visit LWC's Website <i>Here!</i></a>
+            </p>
+            &nbsp
+        </footer>
+    </body>
+</html>

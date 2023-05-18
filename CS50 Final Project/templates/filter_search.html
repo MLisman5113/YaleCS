@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta name="viewport" content="initial-scale=1, width=device-width">
+        <link href="/static/styles.css" rel="stylesheet">
+        <title>Yalieats</title>
+        <link rel="icon" type="image/x-icon" href="/static/favicon-32x32.png">
+    </head>
+    <body>
+        <div class="header">
+            <h1 class="title" style="font-size:100px"><a href="/main">Yalieats</a></h1>
+            <i><h1 class="title"></h1>A New Way to Eat</i>
+            <p></p>
+            <ul class="ul">
+                <li class="li"><a href="/about_us"><h3>About Us</h3></a></li>
+                <li class="li"><a href="/your_account"><h3>Your Account</h3></a></li>
+                <li class="li"><a href="/contact_us"><h3>Contact Us</h3></a></li>
+                <li class="li"><a href="/logout"><h3>Log Out</h3></a></li>
+            </ul>
+        </div>
+
+         <div class="filter_search_main">
+            <div class="before_main_text">
+                <p style="font-size:20px">Find your perfect restaurant using the following parameters. You must choose a filter from all three categories or the current default filters will be submitted.</p>
+                <form action="/filter_search" method="post">
+                    <div class="form_format">
+                        <label for="type_of_food">Choose a Food Type: </label>
+                        <select id="type_of_food" name="type_of_food">
+                            <option value="Choose a Food Type">Choose a Food Type</option>
+                            <option value="American">American</option>
+                            <option value="Asian">Asian</option>
+                            <option value="Bagel Shop">Bagel Shop</option>
+                            <option value="Belgian">Belgian</option>
+                            <option value="Bubble Tea">Bubble Tea</option>
+                            <option value="Cafe">Cafe</option>
+                            <option value="Chinese">Chinese</option>
+                            <option value="Cigar Shop">Cigar Shop</option>
+                            <option value="Cuban">Cuban</option>
+                            <option value="Deli">Deli</option>
+                            <option value="Dessert">Dessert</option>
+                            <option value="Dominican">Dominican</option>
+                            <option value="Ethiopian">Ethiopian</option>
+                            <option value="French">French</option>
+                            <option value="Gastrobar">Gastrobar</option>
+                            <option value="Grocery">Grocery</option>
+                            <option value="Hawaiian">Hawaiian</option>
+                            <option value="Health-Conscious Food">Health-Conscious</option>
+                            <option value="Indian">Indian</option>
+                            <option value="Jamaican">Jamaican</option>
+                            <option value="Japanese">Japanese</option>
+                            <option value="Laotian">Laotian</option>
+                            <option value="Latin American">Latin American</option>
+                            <option value="Mediterranean">Mediterranean</option>
+                            <option value="Mexican">Mexican</option>
+                            <option value="Middle Eastern">Middle Eastern</option>
+                            <option value="Moroccan">Moroccan</option>
+                            <option value="Peruvian">Peruvian</option>
+                            <option value="Pizza">Pizza</option>
+                            <option value="Puerto Rican">Puerto Rican</option>
+                            <option value="Ramen">Ramen</option>
+                            <option value="Sandwich">Sandwich</option>
+                            <option value="Seafood">Seafood</option>
+                            <option value="Soul Food">Soul Food</option>
+                            <option value="Southwestern">Southwestern</option>
+                            <option value="Spanish">Spanish</option>
+                            <option value="Sushi">Sushi</option>
+                            <option value="Thai">Thai</option>
+                            <option value="Turkish">Turkish</option>
+                            <option value="Vegetarian">Vegetarian</option>
+                            <option value="Wine Bar">Wine Bar</option>
+                        </select>
+                    </div>
+                    <div class="form_format">
+                        <label for="on_snackpass">On Snackpass: </label>
+                        <select id="on_snackpass" name="on_snackpass">
+                            <option value="Choose a Snackpass Status">Choose a Snackpass Status</option>
+                            <option value="Yes">Yes</option>
+                            <option value="No">No</option>
+                        </select>
+                    </div>
+                    <div class="form_format">
+                        <label for="restaurant_vibe">Choose a Restaurant Vibe: </label>
+                        <select id="restaurant_vibe" name="restaurant_vibe">
+                            <option value="Choose a Restaurant Vibe">Choose a Restaurant Vibe</option>
+                            <option value="Bakery">Bakery</option>
+                            <option value="Bar atmosphere">Bar Atmosphere</option>
+                            <option value="Breakfast/Lunch">Breakfast/Lunch</option>
+                            <option value="Casual">Casual</option>
+                            <option value="Coffee Shop">Coffee Shop</option>
+                            <option value="Grocery Store">Grocery Store</option>
+                            <option value="Ice Cream Parlor">Ice Cream</option>
+                            <option value="Takeout">Takeout</option>
+                            <option value="Upscale and/or Romantic">Upscale and/or Romantic</option>
+                        </select>
+                    </div>
+                    <button class="register_login_button" type="submit">Submit your Search</button>
+                </form>
+            </div>
+        </div>
+
+        <footer class="footer">
+            &nbsp
+            <p>
+                Brought to you by: Lisman Watch Company LLC
+            </p>
+            <p>
+                Copyright Marcus A. Lisman &copy; 2021
+            </p>
+            <p>
+                <a target="_blank" href="https://www.lismanwatchcompany.com">Visit LWC's Website <i>Here!</i></a>
+            </p>
+            &nbsp
+        </footer>
+    </body>
+</html>

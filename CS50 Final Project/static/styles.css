@@ -1,0 +1,865 @@
+.title {
+    text-align: center;
+    color: white;
+    font-family: YaleFont;
+    text-decoration: none;
+    font-weight: 300;
+  }
+
+  @font-face {
+      font-family: YaleFont;
+      src: url(YaleNew-Roman.otf);
+  }
+
+.header {
+    padding: 1px;
+    text-align: center;
+    background: #00356b;
+    color: white;
+    font-family: YaleFont;
+    font-size: 30px;
+  }
+
+.header2 {
+    padding: 1px;
+    text-align: center;
+    background: #00356b;
+    color: white;
+    font-family: YaleFont;
+    font-size: 20px;
+  }
+
+.header3 {
+    padding: 0px;
+    text-align: center;
+    background: white;
+    color: #00356B;
+    font-family: YaleFont;
+    font-size: 20px;
+  }
+.main2 {
+    background-image: url("coffee_cup_dark.png");
+    background-color: #ffffff;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    min-height: 670px;
+  }
+
+.before_main {
+    background-image: url("schwarzman-commons.jpeg");
+    background-color: #cccccc;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+.before_main2 {
+  background-image: url("coffee_cup_dark.png");
+  background-color: #ffffff;
+  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  min-height: 670px;
+}
+
+.content {
+  background: white;
+  padding: 15px;
+  border-radius: 3px;
+}
+
+.footer {
+  width: 100%;
+  background-color: #00356b;
+  color: white;
+  text-align: center;
+  font-family: YaleFont;
+}
+
+.before_main_text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: YaleFont;
+}
+
+.restaurant_text {
+  text-align: center;
+  color: #00356b;
+  font-family: YaleFont;
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+}
+
+.button {
+  color: #ffffff;
+  font-family: YaleFont;
+  font-size: 25px;
+  background: #286dc0;
+  padding: 10px 100px 10px 100px;
+  border: solid #00356b 2px;
+  text-decoration: none;
+  }
+
+.button:hover {
+  background: #ffffff;
+  color: #00356b;
+  text-decoration: none;
+  }
+
+.button2 {
+    color: #ffffff;
+    font-size: 20px;
+    background: #0d6efd;
+    padding: 10px 100px 10px 100px;
+    text-decoration: none;
+  }
+
+.button2:hover {
+    background: #ffffff;
+    color: #00356b;
+    text-decoration: none;
+  }
+
+  .register_main {
+    background-image: url("PiersonDiningHall.png");
+    background-color: #cccccc;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.register_login_button {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  color: #ffffff;
+  font-size: 18px;
+  font-family: YaleFont;
+  background: #286dc0;
+  padding: 10px 100px 10px 100px;
+  border: solid #00356b 2px;
+  text-decoration: none;
+}
+
+.register_login_button:hover {
+  background: #ffffff;
+  color: #00356b;
+  text-decoration: none;
+}
+
+.missing_format {
+  background-color: #63aaff;
+  width: 300px;
+  border: solid #286dc0 15px;
+  padding: 50px;
+}
+
+.register_error_button {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  color: #ffffff;
+  font-size: 18px;
+  background: #286dc0;
+  padding: 50px;
+  border: solid #00356b 2px;
+  text-decoration: none;
+}
+
+.a_link {
+  color: #00356b;
+  text-decoration: none;
+}
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.form_format {
+  padding: 5px;
+  font-family: YaleFont;
+  font-size: 25px;
+  width: 100%;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+input[type=number] {
+  width: 100%;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  font-family: YaleFont;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  font-family: YaleFont;
+}
+
+input[type=password] {
+  width: 100%;
+  padding: 12px 15px;
+  box-sizing: border-box;
+  font-family: YaleFont;
+}
+
+h1 {
+  margin-top: 0.2em;
+  margin-bottom: 0.2em;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+body {
+  margin: 0px;
+}
+
+.ul {
+  list-style-type: none;
+  margin: 1px;
+  padding: 0px;
+  overflow: hidden;
+  background-color: #ffffff;
+  text-align: center;
+  float: none;
+}
+
+.li {
+  text-align: center;
+  display: inline-block;
+}
+
+.li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 18px 28px;
+  text-decoration: none;
+}
+
+h3 {
+  color: #00356b;
+  font-family: YaleFont;
+  text-decoration: none;
+  font-weight: 300;
+  padding: 1px;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 0.25em;
+  margin-bottom: 0.25em;
+  top: 50%;
+  left: 50%;
+}
+
+.restaurant_main {
+  background-color: #ffffff;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+  color: #00356b;
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+}
+
+.restaurant_title {
+  text-align: center;
+  color: #00356b;
+  font-family: YaleFont;
+  text-decoration: none;
+  font-weight: 300;
+}
+
+.main {
+  background-image: url("FranklinDiningHall.png");
+  background-color: #cccccc;
+  height: 550px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.restaurant_button {
+    color: #ffffff;
+    font-family: YaleFont;
+    font-size: 20px;
+    background: #286dc0;
+    padding: 10px 100px 10px 100px;
+    border: solid #00356b 2px;
+    text-decoration: none;
+}
+
+.restaurant_button:hover {
+    background: #ffffff;
+    color: #00356b;
+    text-decoration: none;
+}
+
+table {
+  font: YaleFont;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 2px solid #00356b;
+  text-align: center;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.review_main {
+  background-color: #ffffff;
+  height: 385px;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.write_a_review_main {
+  background-color: #63aaff;
+  height: 620px;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.about_us_main {
+  background-color: #ffffff;
+  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.results_main {
+  background-color: #ffffff;
+  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.filter_results_button {
+  color: #ffffff;
+  font-family: YaleFont;
+  font-size: 25px;
+  background: #286dc0;
+  padding: 20px 100px 20px 100px;
+  border: solid #00356b 2px;
+  text-decoration: none;
+}
+
+.filter_results_button:hover {
+  background: #ffffff;
+  color: #00356b;
+  text-decoration: none;
+}
+
+.filter_search_main {
+  background-color: #63aaff;
+  height: 550px;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.history_text {
+  text-align: center;
+  color: #00356b;
+  font-family: YaleFont;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 35px;
+  padding-left: 20px;
+}
+
+.contact_main {
+  background-image: url("YaleCrossCampus.png");
+  background-color: #ffffff;
+  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+select {
+  width: 100%;
+  padding: 16px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+  font-family: YaleFont;
+  font-size: 15px;
+}
+
+
+body {
+  overflow-x: hidden
+}
+
+.container-fluid {
+  background-color: #63AAFF;
+}
+
+.sm-text {
+  font-size: 14px;
+  letter-spacing: 1px
+}
+
+.sm-text-1 {
+  font-size: 14px
+}
+
+.blue-tab {
+  background-color: #286DC0;
+  color: #fff;
+  border-radius: 5px;
+  padding: 5px 3px 5px 3px
+}
+
+.btn-red {
+  background-color: #E64A19;
+  color: #fff;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  margin: 10px 2px;
+}
+
+.btnClear{
+  display: inline-block;
+  vertical-align: top
+}
+
+.btn-red:hover {
+  background-color: #BF360C
+}
+
+.btn-red:focus {
+  -moz-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  outline-width: 0
+}
+
+.round-icon {
+  font-size: 40px;
+  padding-bottom: 10px
+}
+
+.fa-circle {
+  font-size: 10px;
+  color: #EEEEEF
+}
+
+.green-dot {
+  color: #4CAF50
+}
+
+.red-dot {
+  color: #E64A19
+}
+
+.yellow-dot {
+  color: #FFD54F
+}
+
+.grey-text {
+  color: #FFFFFF
+}
+
+.green-text {
+  color: #4CAF50
+}
+
+.lightyale-text {
+  color: #63AAFF
+}
+
+.block {
+  border-right: 1px solid #FFF;
+  border-top: 1px solid #FFF;
+  border-bottom: 1px solid #FFF
+}
+
+.profile-pic img {
+  border-radius: 50%
+}
+
+.rating-dot {
+  letter-spacing: 5px
+}
+
+.via {
+  border-radius: 20px;
+  height: 28px
+}
+
+.portfolio {
+  background-color: #fff;
+  }
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+.margin {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.profile-info-list {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+.friend-list,
+.img-grid-list {
+  margin: -1px;
+  list-style-type: none;
+}
+.profile-info-list > li.title {
+  font-size: 0.625rem;
+  font-weight: 700;
+  color: #8a8a8f;
+  padding: 0 0 0.3125rem;
+}
+.profile-info-list > li + li.title {
+  padding-top: 1.5625rem;
+}
+.profile-info-list > li {
+  padding: 0.625rem 0;
+}
+.profile-info-list > li .field {
+  font-weight: 700;
+}
+.profile-info-list > li .value {
+  color: #666;
+}
+.profile-info-list > li.img-list a {
+  display: inline-block;
+}
+.profile-info-list > li.img-list a img {
+  max-width: 2.25rem;
+  -webkit-border-radius: 2.5rem;
+  -moz-border-radius: 2.5rem;
+  border-radius: 2.5rem;
+}
+.coming-soon-cover img,
+.email-detail-attachment .email-attachment .document-file img,
+.email-sender-img img,
+.friend-list .friend-img img,
+.profile-header-img img {
+  max-width: 100%;
+}
+.table.table-profile th {
+  border: none;
+  color: #000;
+  padding-bottom: 0.3125rem;
+  padding-top: 0;
+}
+.table.table-profile td {
+  border-color: #c8c7cc;
+}
+.table.table-profile tbody + thead > tr > th {
+  padding-top: 1.5625rem;
+}
+.table.table-profile .field {
+  color: #666;
+  font-weight: 600;
+  width: 25%;
+  text-align: right;
+}
+.table.table-profile .value {
+  font-weight: 500;
+}
+.profile-header {
+  position: relative;
+  overflow: hidden;
+}
+.profile-header .profile-header-cover {
+  background: url(https://bootdey.com/img/Content/bg1.jpg) center no-repeat;
+  background-size: 100% auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+.profile-header .profile-header-cover:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.25) 0, rgba(0, 0, 0, 0.85) 100%);
+}
+.profile-header .profile-header-content,
+.profile-header .profile-header-tab,
+.profile-header-img,
+body .fc-icon {
+  position: relative;
+}
+.profile-header .profile-header-tab {
+  background: #fff;
+  list-style-type: none;
+  margin: -1.25rem 0 0;
+  padding: 0 0 0 8.75rem;
+  border-bottom: 1px solid #c8c7cc;
+  white-space: nowrap;
+}
+.profile-header .profile-header-tab > li {
+  display: inline-block;
+  margin: 0;
+}
+.profile-header .profile-header-tab > li > a {
+  display: block;
+  color: #000;
+  line-height: 1.25rem;
+  padding: 0.625rem 1.25rem;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 0.75rem;
+  border: none;
+}
+.profile-header .profile-header-tab > li.active > a,
+.profile-header .profile-header-tab > li > a.active {
+  color: #007aff;
+}
+.profile-header .profile-header-content:after,
+.profile-header .profile-header-content:before {
+  content: "";
+  display: table;
+  clear: both;
+}
+.profile-header .profile-header-content {
+  color: #fff;
+  padding: 1.25rem;
+}
+body .fc th a,
+body .fc-ltr .fc-basic-view .fc-day-top .fc-day-number,
+body .fc-widget-header a {
+  color: #000;
+}
+.profile-header-img {
+  float: left;
+  width: 7.5rem;
+  height: 7.5rem;
+  overflow: hidden;
+  z-index: 10;
+  margin: 0 1.25rem -1.25rem 0;
+  padding: 0.1875rem;
+  -webkit-border-radius: 0.25rem;
+  -moz-border-radius: 0.25rem;
+  border-radius: 0.25rem;
+  background: #fff;
+}
+.profile-header-info h4 {
+  font-weight: 500;
+  margin-bottom: 0.3125rem;
+}
+.profile-container {
+  padding: 1.5625rem;
+}
+@media (max-width: 967px) {
+  .profile-header-img {
+      width: 5.625rem;
+      height: 5.625rem;
+      margin: 0;
+  }
+  .profile-header-info {
+      margin-left: 6.5625rem;
+      padding-bottom: 0.9375rem;
+  }
+  .profile-header .profile-header-tab {
+      padding-left: 0;
+  }
+}
+@media (max-width: 767px) {
+  .profile-header .profile-header-cover {
+      background-position: top;
+  }
+  .profile-header-img {
+      width: 3.75rem;
+      height: 3.75rem;
+      margin: 0;
+  }
+  .profile-header-info {
+      margin-left: 4.6875rem;
+      padding-bottom: 0.9375rem;
+  }
+  .profile-header-info h4 {
+      margin: 0 0 0.3125rem;
+  }
+  .profile-header .profile-header-tab {
+      white-space: nowrap;
+      overflow: scroll;
+      padding: 0;
+  }
+  .profile-container {
+      padding: 0.9375rem 0.9375rem 3.6875rem;
+  }
+  .friend-list > li {
+      float: none;
+      width: auto;
+  }
+}
+.profile-info-list {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+.friend-list,
+.img-grid-list {
+  margin: -1px;
+  list-style-type: none;
+}
+.profile-info-list > li.title {
+  font-size: 0.625rem;
+  font-weight: 700;
+  color: #8a8a8f;
+  padding: 0 0 0.3125rem;
+}
+.profile-info-list > li + li.title {
+  padding-top: 1.5625rem;
+}
+.profile-info-list > li {
+  padding: 0.625rem 0;
+}
+.profile-info-list > li .field {
+  font-weight: 700;
+}
+.profile-info-list > li .value {
+  color: #666;
+}
+.profile-info-list > li.img-list a {
+  display: inline-block;
+}
+.profile-info-list > li.img-list a img {
+  max-width: 2.25rem;
+  -webkit-border-radius: 2.5rem;
+  -moz-border-radius: 2.5rem;
+  border-radius: 2.5rem;
+}
+.coming-soon-cover img,
+.email-detail-attachment .email-attachment .document-file img,
+.email-sender-img img,
+.friend-list .friend-img img,
+.profile-header-img img {
+  max-width: 100%;
+}
+.table.table-profile th {
+  border: none;
+  color: #000;
+  padding-bottom: 0.3125rem;
+  padding-top: 0;
+}
+.table.table-profile td {
+  border-color: #c8c7cc;
+}
+.table.table-profile tbody + thead > tr > th {
+  padding-top: 1.5625rem;
+}
+.table.table-profile .field {
+  color: #666;
+  font-weight: 600;
+  width: 25%;
+  text-align: right;
+}
+.table.table-profile .value {
+  font-weight: 500;
+}
+
+.friend-list {
+  padding: 0;
+}
+.friend-list > li {
+  float: left;
+  width: 50%;
+}
+.friend-list > li > a {
+  display: block;
+  text-decoration: none;
+  color: #000;
+  padding: 0.625rem;
+  margin: 1px;
+  background: #fff;
+}
+.friend-list > li > a:after,
+.friend-list > li > a:before {
+  content: "";
+  display: table;
+  clear: both;
+}
+.friend-list .friend-img {
+  float: left;
+  width: 3rem;
+  height: 3rem;
+  overflow: hidden;
+  background: #efeff4;
+}
+.friend-list .friend-info {
+  margin-left: 3.625rem;
+}
+.friend-list .friend-info h4 {
+  margin: 0.3125rem 0;
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+.friend-list .friend-info p {
+  color: #666;
+  margin: 0;
+}
