@@ -1,16 +1,15 @@
-Documentation for your project in the form of a Markdown file called README.md. This documentation is to be a user’s manual for your project. Though the structure of your documentation is entirely up to you, it should be incredibly clear to the staff how and where, if applicable, to compile, configure, and use your project. Your documentation should be at least several paragraphs in length. It should not be necessary for us to contact you with questions regarding your project after its submission. Hold our hand with this documentation; be sure to answer in your documentation any questions that you think we might have while testing your work.
+# Yalieats - A CS50 Final Project
 
-PROJECT TITLE: Yalieats
+**PROJECT CREATOR:** Marcus Lisman, Yale College '25, Pierson College
 
-PROJECT CREATOR: Marcus Lisman, Yale College '25, Pierson College
-
-PROJECT VIDEO URL: https://youtu.be/b4ECEQ77kFY
+**PROJECT VIDEO URL:** https://youtu.be/b4ECEQ77kFY
 
 
-PROJECT DESCRIPTION: Yalieats is a web application that allows its users to search for and review local restaurants in the New Haven, Connecticut area. When running the application, the user is prompted to either register or log in. They then have access to the different tools within Yalieats. Members have three options: Search by Restaurant Name, Search by Filters, or Review a Restaurant. Each of these features will be explained in more detail further down in the file. Users can access reviews, get recommendations based on filters they choose, and see the different ratings that Yalies leave to find out the perfect place to eat. Essentially, finding the right restaurant to eat at becomes a much easier task with Yalieats.
+## PROJECT DESCRIPTION
+Yalieats is a web application that allows its users to search for and review local restaurants in the New Haven, Connecticut area. When running the application, the user is prompted to either register or log in. They then have access to the different tools within Yalieats. Members have three options: Search by Restaurant Name, Search by Filters, or Review a Restaurant. Each of these features will be explained in more detail further down in the file. Users can access reviews, get recommendations based on filters they choose, and see the different ratings that Yalies leave to find out the perfect place to eat. Essentially, finding the right restaurant to eat at becomes a much easier task with Yalieats.
 
 
-HOW TO RUN THE APPLICATION:
+## HOW TO RUN THE APPLICATION:
 Yalieats is a Flask application that was built, tested, and run entirely in the CS50 VSCode IDE (the browser version, not the desktop version) that has been utilized during the semester as the key virtual codespace for Yale's CS50 course. All the accompanying files are included in the finalproject folder, which includes a flask_session folder, a static folder that contains images, favicons, fonts, and styles.css found in the application, a templates folder that contains all of the html files, the app.py file, the DESIGN.md and README.md files, a helpers.py file, a requirements.txt file, and the yalieats.db database (SQLite3), which includes a table for the members, a table for the restaurants, and a table for the reviews.
 
 In order to run the application, first you should download the finalproject folder (unzip the file beforehand, if necessary) and drag it into the VSCode IDE file explorer so you can import the project.
@@ -24,15 +23,13 @@ That command will open a new port to the application and reveal a link that you 
 
 What to do from here will be detailed in the next section of the file, which will describe the different pages, functionalities, and features of the Yalieats web application
 
+## PAGES, FUNCTIONALITIES, AND MAIN FEATURES OF YALIEATS
 
-
-PAGES, FUNCTIONALITIES, AND MAIN FEATURES OF YALIEATS
-
-1) Register and Login Initial Page (before_main.html)
+1. Register and Login Initial Page (before_main.html)
 
 When the user initially launches the application, they are taken to a "before" main page, which is basically the only page a user can access before either registering or logging in. If the user wants to register, they click the register button, which takes them to a form that has some fields for information. All of the fields must be filled or else when the submit button is clicked, the user will be shown an html page which describes their error and then has a button to take them back to the registration page. The user is asked for their first name, last name, email address, username, password, and confirmation (retype the same password to confirm they match up). If all the fields are filled and the passwords match, the user is then redirected to the page where they can choose to either register or log in. In the background, the form is submitted and the information is added to the members table of the yalieats database. Next, the user can log in by putting in their username and password. If either of these are incorrect, the user will get an html page with their error and can click the button on screen to return to the login page. After logging in successfully, the user will then be taken to the main.html page, which has the added white navigation bar and the three blue options titled "Search for a Restaurant", "Search by Filters", and "Review a Restaurant".
 
-2) Main Homepage after logging in (main.html and corresponding pages tied to the features discussed below)
+2. Main Homepage after logging in (main.html and corresponding pages tied to the features discussed below)
 
 After logging in, the user will be viewing a slighly different interface. As mentioned previously, there is now a navigation bar and three buttons with the options titled "Search for a Restaurant", "Search by Filters", and "Review a Restaurant". In the navigation bar, there are four clickable options: "About Us", "Your Account", "Contact Us", and "Log Out"
 
