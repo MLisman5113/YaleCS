@@ -1,5 +1,7 @@
 # CPSC 223 @ Yale University
+**Course Description:** Topics include programming in C and C++; object oriented programming; data structures (arrays, stacks, queues, lists, trees, heaps, graphs); sorting and searching; memory allocation and management; data abstraction; programming style; testing and debugging; asymptotic analysis of programs.
 
+## Folder Breakdown
 NOTE: All the following assignments are located in the Problem Sets folder
 
 1. PSET 1: Focus on user input, command line, basic C concepts
