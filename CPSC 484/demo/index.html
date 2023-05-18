@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <style>
+            .blue {
+                color:blue;
+            }
+            #button {
+                border: 1px solid green;
+                border-radius: 4px;
+                display: inline-block;
+                padding:10px ;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div id="button">I am a button!</div>
+        <div id="msg"></div>
+        <div class="blue">hello</div>
+        <div>there</div>
+    </body>
+
+    <script>
+        document.getElementById("button").onclick = function(e){
+            document.getElementById("msg").innerHTML = "Hello Marcus, it's good to see you :)";
+        }
+    </script>
+</html>
