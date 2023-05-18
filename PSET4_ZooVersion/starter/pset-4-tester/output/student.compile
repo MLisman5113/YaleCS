@@ -1,0 +1,2 @@
+g++ -std=c++11 -Wall -Wextra -g   -c -o train-conductor.o train-conductor.cpp
+make: *** No rule to make target '/home/accts/mal249/cs223/PSETS/PSET4/starter/train-conductor/Station.cpp', needed by 'Station.o'.  Stop.

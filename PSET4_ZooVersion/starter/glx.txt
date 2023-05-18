@@ -1,0 +1,26 @@
+Heath St-Y
+Back of the Hill-N
+Riverway-N
+Mission Park-N
+Fenwood Rd-N
+Brigham Circle-Y
+Longwood Medical-Y
+Museum of Fine Arts-Y
+Northeastern-Y
+Symphony-N
+Prudential-Y
+Copley-Y
+Arlington-Y
+Boylston-N
+Park St-Y
+Government Center-Y
+Haymarket-Y
+North Station-Y
+Science Park-Y
+Lechmere-Y
+Union Square-N
+East Somerville-N
+Gilman Square-N
+Magoun Square-N
+Ball Square-Y
+College Ave-Y
