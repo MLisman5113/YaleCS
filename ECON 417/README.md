@@ -10,6 +10,7 @@ This course is designed for advanced undergraduate students who have taken inter
 
 ## Folder Breakdown
 1. Basic_Julia: files that implement basic concepts in Julia
-2. Math_Toolkit: A collection of Julia programs that implement various advanced mathematical problem solving techniques used in the problem sets
-3. PSETS: Julia programs that solve various economic problems presented in course problem sets
-4. final_project: files I wrote to implement a Julia program that calculated American call option prices for the top 10 Fortune 500 companies of 2022 based on historical stock data and other measures followed by a subsequent analysis of the program output compared to real data
+2. ECON417_Problem_Set_Solutions: The collection of Julia programs that I programmed to solve various economic problems throughout the cours by implementing various advanced mathematical problem solving techniques
+3. Math_Toolkit: A collection of Julia programs that implement various advanced mathematical problem solving techniques used in the problem sets
+4. PSETS: Julia programs that solve various economic problems presented in course problem sets
+5. final_project: files I wrote to implement a Julia program that calculated American call option prices for the top 10 Fortune 500 companies of 2022 based on historical stock data and other measures followed by a subsequent analysis of the program output compared to real data
