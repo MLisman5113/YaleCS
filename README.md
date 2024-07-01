@@ -7,4 +7,5 @@ A collection of programming assignments for my coursework at Yale University in 
 3. CPSC 484: Introduction to Human-Computer Interaction (Javascript, HTML, CSS)
 4. CS50 Final Project: project files for CS50 final project (Yalieats - Python, HTML, CSS, SQL, Flask)
 5. ECON 417: Computational Methods in Economics (Julia)
-6. Practice: files and small programs I coded to prepare for CPSC 223 (C, C++)
+6. ECON 428: Machine Learning in Economics (Python)
+7. Practice: files and small programs I coded to prepare for CPSC 223 (C, C++)
